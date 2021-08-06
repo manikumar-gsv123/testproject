@@ -45,4 +45,7 @@ public class HelloWorldModel {
     public String getMessage() {
         return message;
     }
+    public String getMessage1() {
+        return message1;
+    }
 }
