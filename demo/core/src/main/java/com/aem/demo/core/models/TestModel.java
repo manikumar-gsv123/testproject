@@ -20,5 +20,7 @@ public class TestModel {
 	public String getText() {
 		return StringUtils.isNotBlank(this.text)? this.text.toUpperCase() : null;
 	}
-
+	public String getText1() {
+		return StringUtils.isNotBlank(this.text1)? this.text.toUpperCase() : null;
+	}
 }
